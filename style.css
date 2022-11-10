@@ -34,13 +34,20 @@ body{
     margin: 15px;
 }
 
-.contain{
-    height: 100px;
+.container{
+    height: 160px;
     display: flex;
     align-items: center;
     justify-content:space-evenly;
     font-size: 55px;
     font-weight: 900;
+}
+
+.container *{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
 }
 
 .white{
@@ -89,7 +96,7 @@ body{
 .button-home-register{
     width: 335px;
     height: 70px;
-    font-size: 30px;
+    font-size: 29px;
     font-weight: bold;
     color: white;
     background-color: #1A85D2;

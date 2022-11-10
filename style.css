@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@
 body{
     background-color: #24272B;
     height: 100vh;
+    width: 100vw;
     font-family: 'Inter', sans-serif;
 }
 
@@ -21,7 +24,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: 30px;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bolder;
     color: white;
 }
@@ -29,4 +32,69 @@ body{
 .title span{
     color: #D88100;
     margin: 15px;
+}
+
+.contain{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.white{
+    color: white;
+}
+
+.blue{
+    color: #1A85D2;
+}
+
+.info-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.infinity{
+    filter: invert();
+    width: 30px;
+}
+
+.info-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button-container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.button-home-register{
+    width: 335px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #1A85D2;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
 }

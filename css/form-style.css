@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;padding: 0;box-sizing: border-box;
 }
@@ -43,25 +45,55 @@ form{
 .right-side{
     height: 100%;
     width: 50%;
-    background-color: red;
+    position: relative;
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
-    font-size: 25px;
+}
+
+.right-side p{
+    margin: 40px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
     position: relative;
 }
-.right-side *{
-    margin: 15px; 
-    transition: all 1s ease-in-out;
-}
-
-.right-side .active{
-    color: white;
+.right-side p:after{
+    content: "";
     position: absolute;
-    height: 100%;
+    background-color: white;
+    height: 2px;
+    width: 0%;
+    bottom: -5px;
+    left: 50%;
+    transition: width 0.4s ease 0s, left 0.4s ease 0s;
+    width: 0;
+}
+.right-side p:hover:after{
+    left: 0;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
+.active a{
+    color: #D88100 !important;
+}
+
+.active:after{
+    background-color: #D88100 !important;
+}
+
+.right-side p a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.name-container{
+    display: flex;
+}
+
+.name-container .first-name{
+    
+}
